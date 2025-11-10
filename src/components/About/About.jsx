@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import image from '../../../public/img/harsh_photo.jpeg'
+
 
 const About = () => {
   return (
@@ -25,10 +26,10 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                'Web Developer',
-                'MERN Developer',
-                'Coder',
+                'MERN Stack Developer',
+                 'Web Developer',
+                 'Fullstack Developer',
+                 'Coder',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -45,7 +46,7 @@ const About = () => {
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1G44sNvhsgGMCT-i2WPG-bDbKEQueWmMv/view"
+            href="https://drive.google.com/file/d/1iAB0_JRNjLFHA9j-Znnh2Av1y-52eGFi/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -70,7 +71,7 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={"https://media.licdn.com/dms/image/v2/D4D03AQFUrHGVyDF3tw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1715622364273?e=1760572800&v=beta&t=kmmzOd-WBHESb7YpwmEvPelCkrs50aAE1cBDjoeUhLY"}
+              src={image}
               alt="Harsh choudhary"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />

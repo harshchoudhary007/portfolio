@@ -1,4 +1,8 @@
 // Skills Section Logo's
+import prjphoto1 from './assets/tech_logo/youtube.jpg';
+import prjphoto2 from './assets/tech_logo/kungfu.jpg';
+import prjphoto3 from './assets/tech_logo/videochat.jpg';
+
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
 import sassLogo from './assets/tech_logo/sass.png';
@@ -32,6 +36,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -89,8 +94,8 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       // { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      // { name: 'Python', logo: pythonLogo },
+      // { name: 'Java', logo: javaLogo },
+      { name: 'Python', logo: pythonLogo },
       // { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       // { name: 'TypeScript', logo: typescriptLogo },
@@ -168,17 +173,9 @@ export const SkillsInfo = [
   // ];
   
   export const education = [
-    // {
-    //   id: 0,
-    //   img: glaLogo,
-    //   school: "GLA University, Mathura",
-    //   date: "Sept 2022 - July 2024",
-    //   grade: "7.81 CGPA",
-    //   desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-    //   degree: "Master of Computer Applications - MCA",
-    // },
+    
     {
-      id: 1,
+      id: 0,
       img: "https://assets.zollege.in/public/college_data/images/logos/1684918668aboutlogo.jpg", // replace with your Vaishnavi Group of Institutions logo variable
       school: "Vaishnavi Group of Institutions, Bhopal",
       date: "Sept 2022 - June 2026",
@@ -195,24 +192,7 @@ export const SkillsInfo = [
       desc: "I completed my class 12 education in Science stream from Gov Higher Secondary School, Tararoda, under the MP Board.",
       degree: "MP Board (XII), Science",
     },
-    // {
-    //   id: 1,
-    //   img: vpsLogo,
-    //   school: "Vatsalya Public School Govardhan, Mathura",
-    //   date: "Apr 2017 - March 2018",
-    //   grade: "78%",
-    //   desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-    //   degree: "CBSE(XII) - PCM with Computer Science",
-    // },
-    // {
-    //   id: 2,
-    //   img: vpsLogo,
-    //   school: "Vatsalya Public School Govardhan, Mathura",
-    //   date: "Apr 2015 - March 2016",
-    //   grade: "87.5%",
-    //   desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-    //   degree: "MP board(X), Science with Computer Application",
-    // },
+
     {
       id: 2,
       img:  "https://www.mpbse.nic.in/resources/images/MPBoardLogo.png", // replace with your MP Board logo variable
@@ -228,64 +208,30 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "AI-Powered YouTube Clone | MERN Stack",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image:  webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "Developed a full-featured YouTube-like platform supporting short-form videos, content studio, analytics dashboard, and revenue management.",
+      image:prjphoto1,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript","Firebase"],
+      github: "https://github.com/harshchoudhary007/youtube_social_midia",
+      // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "AI-Powered YouTube Clone | MERN Stack",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "#",
-      webapp: "#",
+        " Developed a full-featured YouTube-like platform supporting short-form videos, content studio, analytics dashboard, and revenue management.",
+      image:prjphoto3,
+      tags: ["React JS", "Websoket.io" , "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/harshchoudhary007/chat-video",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "Movie Animation | Reactjs",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "#",
-      webapp: "#",
-    },
-    {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "#",
-      webapp: "#",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "#",
-      webapp: "#",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "#",
-      webapp: "#",
-    },
-   
-    
+        "gsap animation project",
+      image: prjphoto2,
+      tags: ["React JS", "HTML", "CSS", "JavaScript",'gsap'],
+      github: "https://github.com/harshchoudhary007/kungfu_animation",
+    }
   ];  

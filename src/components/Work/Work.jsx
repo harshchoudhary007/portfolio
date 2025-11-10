@@ -66,8 +66,8 @@ const Work = () => {
 
       {/* Modal Container */}
       {selectedProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-20">
+          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[80%] max-w-3xl overflow-hidden relative">
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
@@ -111,14 +111,16 @@ const Work = () => {
                   >
                     View Code
                   </a>
-                  <a
+                  {/* <a
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Live
-                  </a>
+                  </a> */}
+                 \
+                  
                 </div>
               </div>
             </div>
